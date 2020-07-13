@@ -1,0 +1,29 @@
+var date = getDate()
+var week = ["日", "一", "二", "三", "四", "五", "六"]
+var TimeMap = {
+    '1-2': '8:10-9:40'
+}
+function getNowMonth() {
+    return date.getMonth() + 1
+}
+
+function getNowDay() {
+    return date.getDate()
+}
+
+function getWeek() {
+    return week[date.getDay()]
+}
+
+function getCourseTime(node) {
+    return TimeMap[node]
+}
+
+
+
+module.exports = {
+    getNowDay:getNowDay,
+    getNowMonth: getNowMonth,
+    getWeek: getWeek,
+    getCourseTime: getCourseTime
+}
