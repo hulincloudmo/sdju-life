@@ -49,6 +49,7 @@ body {
 /* 字体 */
 .font{ font-size: 18px; }
 .font-sm{ font-size: 15px; }
+.font-ssm{ font-size: 12px }
 .font-md{ font-size: 25px; }
 .font-lg{ font-size: 30px; }
 .font-big{ font-size: 60px; }
@@ -71,11 +72,11 @@ body {
 .row { box-sizing: border-box!important; display: flex!important; flex-direction: row; flex-wrap: wrap;}
 [class*='col-'],[class*='span-'],[class*='span24-'] { min-height: 1px;box-sizing: border-box!important;}
 /* 栅栏*/
-.col-1{ width: 62.5rpx; } 
-.col-2{ width: 125rpx; } 
-.col-3{ width: 187.5rpx; } 
-.col-4{ width: 250rpx;} 
-.col-5{ width: 312.5rpx; } 
+.col-1{ width: 62.5rpx; }
+.col-2{ width: 125rpx; }
+.col-3{ width: 187.5rpx; }
+.col-4{ width: 250rpx;}
+.col-5{ width: 312.5rpx; }
 .col-6{ width: 375rpx; }
 .col-7{ width: 437.5rpx; }
 .col-8{ width: 500rpx; }
@@ -84,11 +85,11 @@ body {
 .col-11{ width: 687.5rpx; }
 .col-12{ width: 750rpx; }
 /* 栅栏二 */
-.span24-1{ width: 4.17%; } 
-.span24-2{ width: 8.33%; } 
-.span24-3{ width: 12.5%; } 
-.span24-4{ width: 16.67%;} 
-.span24-5{ width: 20.83%; } 
+.span24-1{ width: 4.17%; }
+.span24-2{ width: 8.33%; }
+.span24-3{ width: 12.5%; }
+.span24-4{ width: 16.67%;}
+.span24-5{ width: 20.83%; }
 .span24-6{ width: 25%; }
 .span24-7{ width: 29.17%; }
 .span24-8{ width: 33.33%; }
@@ -109,11 +110,11 @@ body {
 .span24-23{ width: 95.83%; }
 .span24-24{ width: 100%; }
 /* 栅栏三 */
-.span-1{ width: 5%; } 
-.span-2{ width: 10%; } 
-.span-3{ width: 15%; } 
-.span-4{ width: 20%;} 
-.span-5{ width: 25%; } 
+.span-1{ width: 5%; }
+.span-2{ width: 10%; }
+.span-3{ width: 15%; }
+.span-4{ width: 20%;}
+.span-5{ width: 25%; }
 .span-6{ width: 30%; }
 .span-7{ width: 35%; }
 .span-8{ width: 40%; }
@@ -332,7 +333,7 @@ body {
     white-space: nowrap;
     /* #endif */
     }
-    
+
 /* 分割线 */
 .divider{
     height: 18rpx;

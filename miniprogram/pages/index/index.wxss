@@ -20,7 +20,17 @@
 .grid {
   border-radius: 50rpx;
 }
-.courseNum {
+.course-num {
+  display: flex;
+  flex-direction: column;
+}
+
+.course-node {
+  font-weight: bold;
+  font-size: 40rpx;
+}
+
+.course-detail {
   display: flex;
   flex-direction: column;
 }

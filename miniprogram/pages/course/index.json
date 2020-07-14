@@ -1,3 +1,6 @@
 {
-  "usingComponents": {}
+  "usingComponents": {
+    "time-table": "/components/course/timetable/index"
+  },
+  "navigationStyle": "custom"
 }

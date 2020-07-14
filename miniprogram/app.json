@@ -19,7 +19,8 @@
     "van-transition": "@vant/weapp/transition/index",
     "van-grid": "@vant/weapp/grid/index",
     "van-grid-item": "@vant/weapp/grid-item/index",
-    "van-notify": "@vant/weapp/notify/index"
+    "van-notify": "@vant/weapp/notify/index",
+    "van-icon": "@vant/weapp/icon/index"
   },
   "tabBar": {
     "backgroundColor":"#FFFFFF",
@@ -30,20 +31,20 @@
       {
         "pagePath": "pages/index/index",
         "text": "首页",
-        "iconPath": "images/icons/tabbar/index_on.png",
-        "selectedIconPath": "images/icons/tabBar/index_on.png"
+        "iconPath": "images/icons/tab-bar/index_on.png",
+        "selectedIconPath": "images/icons/tab-bar/index_on.png"
       },
       {
         "pagePath": "pages/course/index",
         "text": "课表",
-        "iconPath": "images/icons/tabBar/schedule_off.png",
-        "selectedIconPath": "images/icons/tabBar/schedule_on.png"
+        "iconPath": "images/icons/tab-bar/schedule_off.png",
+        "selectedIconPath": "images/icons/tab-bar/schedule_on.png"
       },
       {
         "pagePath": "pages/my/index",
         "text": "我的",
-        "iconPath": "images/icons/tabBar/my_off.png",
-        "selectedIconPath": "images/icons/tabBar/my_on.png"
+        "iconPath": "images/icons/tab-bar/my_off.png",
+        "selectedIconPath": "images/icons/tab-bar/my_on.png"
       }
     ]
   },

@@ -10,13 +10,21 @@
     <view style="align-self: center" wx:if="{{userCourseList.length === 0}}">
         <text class="">今天没有课，享受生活吧！</text>
     </view>
-    <view wx:else>
-        <van-row>
-            <van-col span="8" custom-class="courseNum" wx:for="{{userCourseList}}">
-                <text></text>
+    <view wx:else class="ml-2 mt-2">
+        <van-row custom-class="mb-2" wx:for="{{userCourseList}}">
+            <van-col span="6" custom-class="course-num">
+                <text class="course-node">{{item.node}}</text>
             </van-col>
-            <van-col span="16">
-
+            <van-col span="18" custom-class="course-detail">
+                <view class="mb-2" style="font-size: 35rpx;font-weight: 500">
+                    {{item.name}}
+                </view>
+                <view>
+                    <van-image width="30rpx" height="30rpx" src="/images/icons/classroom.png"></van-image>
+                    <text class="ml-1 mr-2">{{item.location}}</text>
+                    <van-image width="30rpx" height="30rpx" src="/images/icons/time.png"></van-image>
+                    <text class="ml-1">{{t.getCourseTimeWithNode(item.node)}}</text>
+                </view>
             </van-col>
         </van-row>
     </view>

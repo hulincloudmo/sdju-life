@@ -27,6 +27,11 @@ Page({
         node: '1-2',
         name: '计算机网络',
         location: 'A教201'
+      },
+      {
+        node: '3-4',
+        name: '数据结构',
+        location: 'A教202'
       }
     ]
   },
