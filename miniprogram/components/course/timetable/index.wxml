@@ -1,0 +1,9 @@
+<view class="d-flex">
+    <view class="d-flex flex-1" wx:for="{{7}}" wx:for-item="x" wx:key="index">
+        <view class="d-flex flex-1 flex-column a-center j-center">
+            <view class="d-flex a-center j-center" style="min-height: 120rpx" wx:for="{{12}}" wx:for-item="y">
+                <text >{{x + 1}}-{{y + 1}}</text>
+            </view>
+        </view>
+    </view>
+</view>
